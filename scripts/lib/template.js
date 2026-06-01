@@ -116,7 +116,7 @@ function productCardHtml(p, headingTag = 'h3') {
     : (p.creator ? `<span class="product-card__creator">${e(p.creator)}</span>` : '');
 
   return `<a href="/${catSlug}/${p.slug}/" class="product-card">
-            <img class="product-card__image" src="/images/products/${p.thumbnail || p.images?.thumb || 'placeholder.jpg'}" alt="${e(p.name)} ${catLabel} for Minecraft Bedrock Edition" width="400" height="225" loading="lazy">
+            <img class="product-card__image" src="/images/products/${p.thumbnail || p.images?.thumb || 'placeholder.svg'}" alt="${e(p.name)} ${catLabel} for Minecraft Bedrock Edition" width="400" height="225" loading="lazy">
             <div class="product-card__body">
               <span class="product-card__category ${tagClass}">${catLabel}</span>
               ${creatorBadge}

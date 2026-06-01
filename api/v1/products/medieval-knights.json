@@ -55,8 +55,8 @@
   "multiplayer": "N/A",
   "version": "1.2.0",
   "images": {
-    "hero": "medieval-knights-hero.jpg",
-    "thumb": "medieval-knights-thumb.jpg"
+    "hero": "medieval-knights-hero.svg",
+    "thumb": "medieval-knights-thumb.svg"
   },
   "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace"
 }

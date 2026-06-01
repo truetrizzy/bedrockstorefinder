@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5"/>
+      <stop offset="100%" style="stop-color:#4338ca"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+  <text x="400" y="189" text-anchor="middle" font-family="system-ui,sans-serif" font-size="48" fill="white" opacity="0.9">🏕️</text>
+  <text x="400" y="279" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-weight="700" font-size="28" fill="white" letter-spacing="0.5">Survival Plus</text>
+  <text x="400" y="337.5" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="rgba(255,255,255,0.7)" text-transform="uppercase" letter-spacing="2">Addon</text>
+  <rect x="240" y="369" width="320" height="2" rx="1" fill="rgba(255,255,255,0.3)"/>
+</svg>

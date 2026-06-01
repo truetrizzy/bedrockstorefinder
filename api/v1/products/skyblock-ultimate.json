@@ -88,8 +88,8 @@
   "multiplayer": "Up to 8 players",
   "version": "2.1.0",
   "images": {
-    "hero": "skyblock-ultimate-hero.jpg",
-    "thumb": "skyblock-ultimate-thumb.jpg"
+    "hero": "skyblock-ultimate-hero.svg",
+    "thumb": "skyblock-ultimate-thumb.svg"
   },
   "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace"
 }

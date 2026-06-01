@@ -203,7 +203,7 @@ function buildStandardProductPage(p, allProducts, site, ROOT) {
     "@type": "Product",
     name: `${p.name} — Minecraft Bedrock ${catLabel}`,
     description: p.shortDesc,
-    image: [`${site.url}/images/products/${p.thumbnail || 'placeholder.jpg'}`],
+    image: [`${site.url}/images/products/${p.thumbnail || 'placeholder.svg'}`],
     brand: { "@type": "Brand", name: p.creator || 'Unknown' },
     offers: {
       "@type": "Offer",
@@ -236,7 +236,7 @@ function buildStandardProductPage(p, allProducts, site, ROOT) {
       <div class="container">
         <div class="product-layout">
           <div class="product-content">
-            <img src="/images/products/${p.thumbnail || 'placeholder.jpg'}" alt="${e(p.name)} ${catLabel} for Minecraft Bedrock" width="800" height="450" style="width:100%;border-radius:var(--radius-lg);margin-bottom:1.5rem;">
+            <img src="/images/products/${p.thumbnail || 'placeholder.svg'}" alt="${e(p.name)} ${catLabel} for Minecraft Bedrock" width="800" height="450" style="width:100%;border-radius:var(--radius-lg);margin-bottom:1.5rem;">
             <h1>${e(p.name)} &mdash; Minecraft Bedrock ${e(catLabel)}</h1>
             <p class="last-updated">Last Updated: <time datetime="${todayStr}">${formatDate(todayStr)}</time></p>
             <p><strong>${e(p.shortDesc)}</strong></p>

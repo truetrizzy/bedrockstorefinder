@@ -36,6 +36,6 @@
   "faqs": [
     { "q": "What is the best Minecraft Bedrock PvP map?", "a": "PvP Arena Masters by Pickaxe Studios features 10 custom arenas, 4 game modes, and supports 2-16 players. Rated {rating} stars with {reviewCount}+ reviews." }
   ],
-  "images": { "hero": "pvp-arena-hero.jpg", "thumb": "pvp-arena-thumb.jpg" },
+  "images": { "hero": "pvp-arena-hero.svg", "thumb": "pvp-arena-thumb.svg" },
   "marketplaceId": ""
 }

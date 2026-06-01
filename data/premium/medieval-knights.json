@@ -34,6 +34,6 @@
   "faqs": [
     { "q": "How many skins are in the Medieval Knights pack?", "a": "The Medieval Knights skin pack contains 24 unique character skins with both slim and classic body variants for each." }
   ],
-  "images": { "hero": "medieval-knights-hero.jpg", "thumb": "medieval-knights-thumb.jpg" },
+  "images": { "hero": "medieval-knights-hero.svg", "thumb": "medieval-knights-thumb.svg" },
   "marketplaceId": ""
 }

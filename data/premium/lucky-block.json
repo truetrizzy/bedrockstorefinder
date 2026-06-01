@@ -42,6 +42,6 @@
     { "q": "Does the Lucky Block addon work in multiplayer?", "a": "Yes, Lucky Block supports unlimited players in multiplayer. It includes a dedicated PvP mini-game mode. Only the host needs to own the addon." },
     { "q": "How do you craft lucky blocks?", "a": "Craft a lucky block by surrounding a dropper with 8 gold ingots on a crafting table. Lucky blocks also spawn naturally throughout the world." }
   ],
-  "images": { "hero": "lucky-block-hero.jpg", "thumb": "lucky-block-thumb.jpg" },
+  "images": { "hero": "lucky-block-hero.svg", "thumb": "lucky-block-thumb.svg" },
   "marketplaceId": ""
 }

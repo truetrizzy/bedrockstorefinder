@@ -58,8 +58,8 @@
   "multiplayer": "2-16 players",
   "version": "1.5.0",
   "images": {
-    "hero": "pvp-arena-hero.jpg",
-    "thumb": "pvp-arena-thumb.jpg"
+    "hero": "pvp-arena-hero.svg",
+    "thumb": "pvp-arena-thumb.svg"
   },
   "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace"
 }

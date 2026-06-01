@@ -44,6 +44,6 @@
     { "q": "What Minecraft version does Skyblock Ultimate require?", "a": "Skyblock Ultimate requires Minecraft Bedrock Edition version {minecraftVersion}. It is compatible with all Bedrock platforms including Windows, iOS, Android, Xbox, PlayStation, and Nintendo Switch." },
     { "q": "How do I install Skyblock Ultimate?", "a": "Open Minecraft Bedrock Edition, go to the Marketplace from the main menu, search for 'Skyblock Ultimate' by Pickaxe Studios, purchase for {price} Minecoins, and the addon downloads automatically. Then create a new world and activate the behavior pack and resource pack." }
   ],
-  "images": { "hero": "skyblock-ultimate-hero.jpg", "thumb": "skyblock-ultimate-thumb.jpg" },
+  "images": { "hero": "skyblock-ultimate-hero.svg", "thumb": "skyblock-ultimate-thumb.svg" },
   "marketplaceId": ""
 }

@@ -43,6 +43,6 @@
     { "q": "How long does One Block Survival take to complete?", "a": "Completing all 12 biome phases and achievements takes approximately 20+ hours. The Bonus phase provides unlimited endgame content." },
     { "q": "Does One Block Survival work in multiplayer?", "a": "Yes, it supports up to 8 players in co-op. All players can break the one block and contribute to progression. Only the host needs to own the world." }
   ],
-  "images": { "hero": "one-block-survival-hero.jpg", "thumb": "one-block-survival-thumb.jpg" },
+  "images": { "hero": "one-block-survival-hero.svg", "thumb": "one-block-survival-thumb.svg" },
   "marketplaceId": ""
 }

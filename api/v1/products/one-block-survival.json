@@ -83,8 +83,8 @@
   "multiplayer": "Up to 8 players",
   "version": "1.8.0",
   "images": {
-    "hero": "one-block-survival-hero.jpg",
-    "thumb": "one-block-survival-thumb.jpg"
+    "hero": "one-block-survival-hero.svg",
+    "thumb": "one-block-survival-thumb.svg"
   },
   "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace"
 }

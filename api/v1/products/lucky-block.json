@@ -82,8 +82,8 @@
   "multiplayer": "Unlimited players",
   "version": "3.0.0",
   "images": {
-    "hero": "lucky-block-hero.jpg",
-    "thumb": "lucky-block-thumb.jpg"
+    "hero": "lucky-block-hero.svg",
+    "thumb": "lucky-block-thumb.svg"
   },
   "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace"
 }

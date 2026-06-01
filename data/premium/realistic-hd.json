@@ -36,6 +36,6 @@
   "faqs": [
     { "q": "What is the best Minecraft Bedrock texture pack?", "a": "Realistic HD by Pickaxe Studios is a top-rated 128x128 texture pack with a {rating}-star rating across {reviewCount}+ reviews. It covers every block, item, and mob." }
   ],
-  "images": { "hero": "realistic-hd-hero.jpg", "thumb": "realistic-hd-thumb.jpg" },
+  "images": { "hero": "realistic-hd-hero.svg", "thumb": "realistic-hd-thumb.svg" },
   "marketplaceId": ""
 }
