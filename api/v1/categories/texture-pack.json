@@ -1,0 +1,42 @@
+{
+  "category": "texture-pack",
+  "label": "Texture Packs",
+  "description": "Visual overhauls changing block, item, and mob textures.",
+  "productCount": 1,
+  "products": [
+    {
+      "slug": "realistic-hd",
+      "name": "Realistic HD",
+      "creator": "Pickaxe Studios",
+      "creatorSlug": "pickaxe-studios",
+      "category": "texture-pack",
+      "price": 490,
+      "priceUSD": "2.99",
+      "rating": 4.6,
+      "reviewCount": 1500,
+      "downloads": "18,000+",
+      "shortDesc": "128x128 resolution textures for every block, item, and mob. Includes connected textures, custom skies, and optimized performance.",
+      "tags": [
+        "texture",
+        "hd",
+        "realistic",
+        "128x",
+        "resource-pack",
+        "visual"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "minecraftVersion": "1.20+",
+      "tier": "premium",
+      "featured": true,
+      "dateModified": "2026-05-27",
+      "url": "/texture-packs/realistic-hd/"
+    }
+  ]
+}

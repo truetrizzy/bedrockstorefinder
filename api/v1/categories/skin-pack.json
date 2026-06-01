@@ -1,0 +1,42 @@
+{
+  "category": "skin-pack",
+  "label": "Skin Packs",
+  "description": "Custom character skin collections with themed designs.",
+  "productCount": 1,
+  "products": [
+    {
+      "slug": "medieval-knights",
+      "name": "Medieval Knights",
+      "creator": "Pickaxe Studios",
+      "creatorSlug": "pickaxe-studios",
+      "category": "skin-pack",
+      "price": 310,
+      "priceUSD": "1.99",
+      "rating": 4.4,
+      "reviewCount": 890,
+      "downloads": "12,000+",
+      "shortDesc": "24 hand-crafted medieval character skins including knights, wizards, archers, and royalty. HD detail with custom slim and classic variants.",
+      "tags": [
+        "skins",
+        "medieval",
+        "knights",
+        "fantasy",
+        "hd",
+        "character"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "minecraftVersion": "Any",
+      "tier": "premium",
+      "featured": true,
+      "dateModified": "2026-05-27",
+      "url": "/skin-packs/medieval-knights/"
+    }
+  ]
+}

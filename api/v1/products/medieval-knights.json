@@ -1,0 +1,62 @@
+{
+  "slug": "medieval-knights",
+  "name": "Medieval Knights",
+  "creator": "Pickaxe Studios",
+  "creatorSlug": "pickaxe-studios",
+  "category": "skin-pack",
+  "price": 310,
+  "priceUSD": "1.99",
+  "rating": 4.4,
+  "reviewCount": 890,
+  "downloads": "12,000+",
+  "shortDesc": "24 hand-crafted medieval character skins including knights, wizards, archers, and royalty. HD detail with custom slim and classic variants.",
+  "tags": [
+    "skins",
+    "medieval",
+    "knights",
+    "fantasy",
+    "hd",
+    "character"
+  ],
+  "platforms": [
+    "Windows",
+    "iOS",
+    "Android",
+    "Xbox",
+    "PlayStation",
+    "Switch"
+  ],
+  "minecraftVersion": "Any",
+  "tier": "premium",
+  "featured": true,
+  "dateModified": "2026-05-27",
+  "url": "/skin-packs/medieval-knights/",
+  "longDesc": "Medieval Knights is a collection of 24 hand-crafted medieval character skins for Minecraft Bedrock Edition featuring knights, wizards, archers, rogues, and royalty. All skins include both slim and classic body variants with HD detail.",
+  "features": [
+    "24 Unique Character Skins — Knights, wizards, archers, rogues, and royalty",
+    "HD Detail — High-resolution textures on every skin",
+    "Slim & Classic Variants — Both body types included for every skin",
+    "Works Everywhere — Equip in any world, server, or game mode"
+  ],
+  "reviews": [
+    {
+      "author": "MedievalFan",
+      "rating": 5,
+      "text": "Love the attention to detail. The knight skins look amazing in-game.",
+      "date": "March 2026"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How many skins are in the Medieval Knights pack?",
+      "answer": "The Medieval Knights skin pack contains 24 unique character skins with both slim and classic body variants for each."
+    }
+  ],
+  "multiplayer": "N/A",
+  "version": "1.2.0",
+  "images": {
+    "hero": "medieval-knights-hero.jpg",
+    "thumb": "medieval-knights-thumb.jpg"
+  },
+  "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "skyblock-ultimate",
+  "name": "Skyblock Ultimate",
+  "creator": "Pickaxe Studios",
+  "creatorSlug": "pickaxe-studios",
+  "category": "addon",
+  "tagline": "Minecraft Bedrock Skyblock Addon",
+  "shortDesc": "The definitive skyblock survival experience with 500+ custom islands, 8-player multiplayer, and progressive difficulty across 8 biomes.",
+  "longDesc": "Skyblock Ultimate is the #1 rated skyblock addon for Minecraft Bedrock Edition, featuring 500+ custom islands across 8 biomes, 8-player multiplayer co-op, and progressive difficulty scaling. With a {rating}-star rating across {reviewCount}+ reviews on the Minecraft Marketplace, it is the most popular and highest-rated skyblock experience available for Bedrock.",
+  "price": 990,
+  "priceUSD": "5.99",
+  "rating": 4.7,
+  "reviewCount": 2300,
+  "downloads": "25,000+",
+  "minecraftVersion": "1.20+",
+  "multiplayer": "Up to 8 players",
+  "version": "2.1.0",
+  "datePublished": "2024-03-15",
+  "dateModified": "2026-05-27",
+  "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+  "tier": "premium",
+  "featured": true,
+  "promoted": true,
+  "tags": ["skyblock", "survival", "islands", "multiplayer", "co-op", "progressive", "biomes"],
+  "features": [
+    "500+ Custom Islands — Each uniquely designed with specific resources, challenges, and rewards",
+    "8 Unique Biomes — Forest, Desert, Ocean, Nether, End, Ice, Mushroom, and Void",
+    "Progressive Difficulty — Four tiers: Easy, Medium, Hard, Extreme",
+    "8-Player Multiplayer Co-op — Only the host needs to own the addon",
+    "Custom Crafting System — Over 30 custom recipes for unique items",
+    "Island Rating System — Track your progress with a built-in rating system",
+    "50+ Achievements — Discover islands, defeat bosses, complete biome challenges",
+    "Regular Content Updates — 12 content updates released in the past year"
+  ],
+  "reviews": [
+    { "author": "SkyblockFan2025", "rating": 5, "text": "Best skyblock addon I've played on Bedrock. The island variety is incredible and multiplayer co-op works flawlessly. Easily worth the Minecoins.", "date": "April 2026" },
+    { "author": "BlockBuilder_MC", "rating": 5, "text": "500+ islands is no joke. My friends and I have been playing for weeks and still finding new challenges. The progressive difficulty keeps things interesting.", "date": "March 2026" },
+    { "author": "MinecraftMom", "rating": 4, "text": "My kids love this addon. Easy to set up, and they play together on our home network. The variety of islands keeps them engaged for hours.", "date": "February 2026" }
+  ],
+  "faqs": [
+    { "q": "What is the best Minecraft skyblock addon for Bedrock Edition?", "a": "Skyblock Ultimate by Pickaxe Studios is the highest-rated skyblock addon on the Minecraft Marketplace, with a {rating}-star rating across {reviewCount}+ reviews. It features 500+ custom islands, 8-player multiplayer, and progressive difficulty across 8 biomes. Available for {price} Minecoins." },
+    { "q": "Does Skyblock Ultimate work with multiplayer?", "a": "Yes, Skyblock Ultimate fully supports multiplayer co-op for up to 8 players. The host player needs to own the addon, and other players can join without purchasing it. All features including island progression, custom crafting, and achievements work in multiplayer." },
+    { "q": "How many islands are in Skyblock Ultimate?", "a": "Skyblock Ultimate contains over 500 custom-designed islands spread across 8 unique biomes. Each island has unique challenges, resources, and rewards. New islands are added regularly through content updates." },
+    { "q": "What Minecraft version does Skyblock Ultimate require?", "a": "Skyblock Ultimate requires Minecraft Bedrock Edition version {minecraftVersion}. It is compatible with all Bedrock platforms including Windows, iOS, Android, Xbox, PlayStation, and Nintendo Switch." },
+    { "q": "How do I install Skyblock Ultimate?", "a": "Open Minecraft Bedrock Edition, go to the Marketplace from the main menu, search for 'Skyblock Ultimate' by Pickaxe Studios, purchase for {price} Minecoins, and the addon downloads automatically. Then create a new world and activate the behavior pack and resource pack." }
+  ],
+  "images": { "hero": "skyblock-ultimate-hero.jpg", "thumb": "skyblock-ultimate-thumb.jpg" },
+  "marketplaceId": ""
+}

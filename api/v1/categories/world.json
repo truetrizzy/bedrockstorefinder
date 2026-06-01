@@ -1,0 +1,77 @@
+{
+  "category": "world",
+  "label": "Worlds",
+  "description": "Pre-built maps, survival challenges, PvP arenas, and adventure experiences.",
+  "productCount": 2,
+  "products": [
+    {
+      "slug": "one-block-survival",
+      "name": "One Block Survival",
+      "creator": "Pickaxe Studios",
+      "creatorSlug": "pickaxe-studios",
+      "category": "world",
+      "price": 830,
+      "priceUSD": "4.99",
+      "rating": 4.8,
+      "reviewCount": 1800,
+      "downloads": "20,000+",
+      "shortDesc": "Start with a single block and expand your world through 12 biome phases. Features custom crafting, achievements, and multiplayer support.",
+      "tags": [
+        "one-block",
+        "survival",
+        "biomes",
+        "multiplayer",
+        "achievements",
+        "crafting"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "minecraftVersion": "1.20+",
+      "tier": "premium",
+      "featured": true,
+      "dateModified": "2026-05-27",
+      "url": "/worlds/one-block-survival/"
+    },
+    {
+      "slug": "pvp-arena-masters",
+      "name": "PvP Arena Masters",
+      "creator": "Pickaxe Studios",
+      "creatorSlug": "pickaxe-studios",
+      "category": "world",
+      "price": 660,
+      "priceUSD": "3.99",
+      "rating": 4.5,
+      "reviewCount": 1200,
+      "downloads": "15,000+",
+      "shortDesc": "10 custom-built PvP arenas with automatic team balancing, spectator mode, leaderboards, and 4 game modes.",
+      "tags": [
+        "pvp",
+        "arena",
+        "competitive",
+        "multiplayer",
+        "team",
+        "deathmatch",
+        "capture-the-flag"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "minecraftVersion": "1.20+",
+      "tier": "premium",
+      "featured": true,
+      "dateModified": "2026-05-27",
+      "url": "/worlds/pvp-arena-masters/"
+    }
+  ]
+}

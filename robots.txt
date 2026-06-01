@@ -1,0 +1,52 @@
+# BedrockStoreFinder - Minecraft Marketplace Directory
+# We welcome all search engines and AI crawlers
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: FacebookExternalHit
+Allow: /
+
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://bedrockstorefinder.com/sitemap.xml
+
+# AI Discovery Endpoints
+# llms.txt: https://bedrockstorefinder.com/llms.txt
+# OpenAPI: https://bedrockstorefinder.com/api/openapi.yaml
+# AI Plugin: https://bedrockstorefinder.com/.well-known/ai-plugin.json
+# Agent Card: https://bedrockstorefinder.com/.well-known/agent-card.json

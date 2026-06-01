@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "name": "BedrockStoreFinder",
+    "url": "https://bedrockstorefinder.com",
+    "totalProducts": 6,
+    "lastUpdated": "2026-06-01",
+    "apiVersion": "1.0"
+  },
+  "products": [
+    {
+      "slug": "one-block-survival",
+      "name": "One Block Survival",
+      "creator": "Pickaxe Studios",
+      "creatorSlug": "pickaxe-studios",
+      "category": "world",
+      "price": 830,
+      "priceUSD": "4.99",
+      "rating": 4.8,
+      "reviewCount": 1800,
+      "downloads": "20,000+",
+      "shortDesc": "Start with a single block and expand your world through 12 biome phases. Features custom crafting, achievements, and multiplayer support.",
+      "tags": [
+        "one-block",
+        "survival",
+        "biomes",
+        "multiplayer",
+        "achievements",
+        "crafting"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "minecraftVersion": "1.20+",
+      "tier": "premium",
+      "featured": true,
+      "dateModified": "2026-05-27",
+      "url": "/worlds/one-block-survival/"
+    },
+    {
+      "slug": "skyblock-ultimate",
+      "name": "Skyblock Ultimate",
+      "creator": "Pickaxe Studios",
+      "creatorSlug": "pickaxe-studios",
+      "category": "addon",
+      "price": 990,
+      "priceUSD": "5.99",
+      "rating": 4.7,
+      "reviewCount": 2300,
+      "downloads": "25,000+",
+      "shortDesc": "The definitive skyblock survival experience with 500+ custom islands, 8-player multiplayer, and progressive difficulty across 8 biomes.",
+      "tags": [
+        "skyblock",
+        "survival",
+        "islands",
+        "multiplayer",
+        "co-op",
+        "progressive",
+        "biomes"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "minecraftVersion": "1.20+",
+      "tier": "premium",
+      "featured": true,
+      "dateModified": "2026-05-27",
+      "url": "/addons/skyblock-ultimate/"
+    },
+    {
+      "slug": "lucky-block",
+      "name": "Lucky Block",
+      "creator": "Pickaxe Studios",
+      "creatorSlug": "pickaxe-studios",
+      "category": "addon",
+      "price": 490,
+      "priceUSD": "2.99",
+      "rating": 4.6,
+      "reviewCount": 3100,
+      "downloads": "40,000+",
+      "shortDesc": "Over 200 random outcomes from lucky blocks. Spawn structures, mobs, gear, and surprises. Perfect for multiplayer parties and mini-games.",
+      "tags": [
+        "lucky-block",
+        "random",
+        "pvp",
+        "mini-game",
+        "multiplayer",
+        "party"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "minecraftVersion": "1.20+",
+      "tier": "premium",
+      "featured": true,
+      "dateModified": "2026-05-27",
+      "url": "/addons/lucky-block/"
+    },
+    {
+      "slug": "realistic-hd",
+      "name": "Realistic HD",
+      "creator": "Pickaxe Studios",
+      "creatorSlug": "pickaxe-studios",
+      "category": "texture-pack",
+      "price": 490,
+      "priceUSD": "2.99",
+      "rating": 4.6,
+      "reviewCount": 1500,
+      "downloads": "18,000+",
+      "shortDesc": "128x128 resolution textures for every block, item, and mob. Includes connected textures, custom skies, and optimized performance.",
+      "tags": [
+        "texture",
+        "hd",
+        "realistic",
+        "128x",
+        "resource-pack",
+        "visual"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "minecraftVersion": "1.20+",
+      "tier": "premium",
+      "featured": true,
+      "dateModified": "2026-05-27",
+      "url": "/texture-packs/realistic-hd/"
+    },
+    {
+      "slug": "pvp-arena-masters",
+      "name": "PvP Arena Masters",
+      "creator": "Pickaxe Studios",
+      "creatorSlug": "pickaxe-studios",
+      "category": "world",
+      "price": 660,
+      "priceUSD": "3.99",
+      "rating": 4.5,
+      "reviewCount": 1200,
+      "downloads": "15,000+",
+      "shortDesc": "10 custom-built PvP arenas with automatic team balancing, spectator mode, leaderboards, and 4 game modes.",
+      "tags": [
+        "pvp",
+        "arena",
+        "competitive",
+        "multiplayer",
+        "team",
+        "deathmatch",
+        "capture-the-flag"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "minecraftVersion": "1.20+",
+      "tier": "premium",
+      "featured": true,
+      "dateModified": "2026-05-27",
+      "url": "/worlds/pvp-arena-masters/"
+    },
+    {
+      "slug": "medieval-knights",
+      "name": "Medieval Knights",
+      "creator": "Pickaxe Studios",
+      "creatorSlug": "pickaxe-studios",
+      "category": "skin-pack",
+      "price": 310,
+      "priceUSD": "1.99",
+      "rating": 4.4,
+      "reviewCount": 890,
+      "downloads": "12,000+",
+      "shortDesc": "24 hand-crafted medieval character skins including knights, wizards, archers, and royalty. HD detail with custom slim and classic variants.",
+      "tags": [
+        "skins",
+        "medieval",
+        "knights",
+        "fantasy",
+        "hd",
+        "character"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
+      "minecraftVersion": "Any",
+      "tier": "premium",
+      "featured": true,
+      "dateModified": "2026-05-27",
+      "url": "/skin-packs/medieval-knights/"
+    }
+  ]
+}

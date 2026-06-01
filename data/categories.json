@@ -1,0 +1,70 @@
+[
+  {
+    "key": "addon",
+    "slug": "addons",
+    "label": "Addon",
+    "labelPlural": "Addons",
+    "tagClass": "tag--addon",
+    "description": "Minecraft Bedrock addons add new gameplay mechanics, mobs, items, blocks, and systems to the game. From skyblock survival to lucky blocks, addons transform the Minecraft experience with custom behavior packs and resource packs.",
+    "shortDescription": "Custom gameplay mechanics, mobs, items, and systems for Minecraft Bedrock.",
+    "faqs": [
+      { "q": "What are the best Minecraft Bedrock addons?", "a": "The best Minecraft Bedrock addons include skyblock survival addons, lucky block addons, furniture mods, weapons addons, and custom mob packs. Browse our full catalog sorted by rating and downloads to find the highest-rated addons on the Minecraft Marketplace." },
+      { "q": "What is a Minecraft Bedrock addon?", "a": "A Minecraft Bedrock addon is a downloadable content pack that modifies or extends the game using behavior packs and resource packs. Addons can add new mobs, items, blocks, crafting recipes, game mechanics, and more. They are available through the official Minecraft Marketplace." },
+      { "q": "How do I install Minecraft addons?", "a": "Open Minecraft Bedrock Edition, go to the Marketplace from the main menu, find your addon, purchase with Minecoins, and it downloads automatically. Then create or edit a world and activate the behavior pack and resource pack in the world settings." },
+      { "q": "Do Minecraft addons work in multiplayer?", "a": "Most Minecraft Marketplace addons support multiplayer. The host player needs to own the addon, but other players can join the world and use the addon features without purchasing it themselves." }
+    ]
+  },
+  {
+    "key": "world",
+    "slug": "worlds",
+    "label": "World",
+    "labelPlural": "Worlds",
+    "tagClass": "tag--world",
+    "description": "Minecraft Bedrock worlds are pre-built maps and game experiences featuring custom terrain, structures, and gameplay mechanics. From one block survival challenges to PvP arenas and adventure maps, worlds offer unique experiences beyond vanilla Minecraft.",
+    "shortDescription": "Pre-built maps, survival challenges, PvP arenas, and adventure experiences.",
+    "faqs": [
+      { "q": "What are the best Minecraft Bedrock worlds?", "a": "The best Minecraft Bedrock worlds include one block survival challenges, skyblock maps, PvP arenas, dropper courses, parkour levels, and adventure maps. Browse our full catalog to find the highest-rated worlds on the Minecraft Marketplace." },
+      { "q": "What is the best one block map for Minecraft?", "a": "Browse our worlds catalog to find one block maps sorted by rating and review count. One block maps start you on a single regenerating block, and you collect random resources to build and survive." },
+      { "q": "Do Minecraft Marketplace worlds work in multiplayer?", "a": "Yes, most Minecraft Marketplace worlds support multiplayer. The host creates the world from the purchased template, and other players can join without needing to buy it." }
+    ]
+  },
+  {
+    "key": "skin-pack",
+    "slug": "skin-packs",
+    "label": "Skin Pack",
+    "labelPlural": "Skin Packs",
+    "tagClass": "tag--skin",
+    "description": "Minecraft Bedrock skin packs are collections of custom character skins that change how your player looks in-game. Themes range from medieval and sci-fi to seasonal and pop culture, with both slim and classic body variants.",
+    "shortDescription": "Custom character skin collections with themed designs.",
+    "faqs": [
+      { "q": "What are the best Minecraft skin packs?", "a": "The best Minecraft skin packs feature HD detail, unique themes, and include both slim and classic body variants. Browse our skin packs catalog sorted by rating to find the most popular packs on the Minecraft Marketplace." },
+      { "q": "Can you use skin packs in multiplayer?", "a": "Yes, skin packs work in all game modes including multiplayer. Other players can see your custom skin. You can equip skins from the dressing room without needing to be in a specific world." }
+    ]
+  },
+  {
+    "key": "texture-pack",
+    "slug": "texture-packs",
+    "label": "Texture Pack",
+    "labelPlural": "Texture Packs",
+    "tagClass": "tag--texture",
+    "description": "Minecraft Bedrock texture packs (resource packs) change the visual appearance of blocks, items, mobs, and the UI. Options range from realistic HD overhauls to cartoon styles and themed visual packs.",
+    "shortDescription": "Visual overhauls changing block, item, and mob textures.",
+    "faqs": [
+      { "q": "What is the best Minecraft texture pack?", "a": "The best Minecraft texture packs depend on your style preference and device performance. HD packs (128x+) look stunning on PC, while optimized packs work better on mobile. Browse our catalog sorted by rating to find top-rated options." },
+      { "q": "Do texture packs affect performance?", "a": "Higher resolution texture packs (128x, 256x) use more memory and may reduce performance on mobile devices and older consoles. Most Marketplace texture packs list their resolution and compatible platforms." }
+    ]
+  },
+  {
+    "key": "mashup",
+    "slug": "mashups",
+    "label": "Mashup",
+    "labelPlural": "Mashups",
+    "tagClass": "tag--mashup",
+    "description": "Minecraft Bedrock mashups are complete themed experiences that combine a custom world, matching skin pack, and themed texture pack into one unified package. They provide the most immersive way to experience a theme in Minecraft.",
+    "shortDescription": "Complete themed experiences combining worlds, skins, and textures.",
+    "faqs": [
+      { "q": "What is a Minecraft mashup pack?", "a": "A Minecraft mashup pack combines a custom world, themed skin pack, and matching texture pack into one purchase. It provides a complete themed experience where the world, characters, and visuals all match a unified theme." },
+      { "q": "Are mashup packs worth it?", "a": "Mashup packs offer the best value for themed content since you get a world, skins, and textures in one package. They typically cost less than buying each component separately." }
+    ]
+  }
+]

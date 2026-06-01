@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "BedrockStoreFinder",
+  "name_for_model": "minecraft_marketplace_directory",
+  "description_for_human": "The most comprehensive Minecraft Marketplace directory. Browse, compare, and find the best addons, worlds, skin packs, texture packs, and mashups for Minecraft Bedrock Edition. Powered by AI-friendly structured data.",
+  "description_for_model": "A comprehensive directory of 6+ Minecraft Marketplace products for Bedrock Edition. Use this to search for, compare, and get details about Minecraft addons, worlds, skin packs, texture packs, and mashups. All products include ratings, reviews, prices (in Minecoins), and direct Marketplace links. Data updates weekly.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://bedrockstorefinder.com/api/openapi.yaml"
+  },
+  "logo_url": "https://bedrockstorefinder.com/images/logo.svg",
+  "contact_email": "contact@bedrockstorefinder.com",
+  "legal_info_url": "https://bedrockstorefinder.com/about/"
+}

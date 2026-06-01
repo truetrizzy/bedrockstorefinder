@@ -1,0 +1,165 @@
+openapi: "3.1.0"
+info:
+  title: BedrockStoreFinder API
+  description: |
+    Comprehensive Minecraft Marketplace product directory API.
+    Browse, search, and compare 6+ products including
+    addons, worlds, skin packs, texture packs, and mashups for
+    Minecraft Bedrock Edition.
+
+    All endpoints return static JSON files. No authentication required.
+    Data updates weekly (every Tuesday).
+  version: "1.0.0"
+  contact:
+    name: BedrockStoreFinder
+    url: https://bedrockstorefinder.com
+
+servers:
+  - url: https://bedrockstorefinder.com/api/v1
+    description: Production (GitHub Pages CDN)
+
+paths:
+  /products.json:
+    get:
+      operationId: listAllProducts
+      summary: List all Minecraft Marketplace products
+      description: Returns the complete catalog of 6+ products with names, categories, ratings, prices, and descriptions.
+      responses:
+        "200":
+          description: Full product catalog
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meta:
+                    type: object
+                    properties:
+                      totalProducts: { type: integer }
+                      lastUpdated: { type: string, format: date }
+                  products:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Product"
+
+  /products/{slug}.json:
+    get:
+      operationId: getProduct
+      summary: Get a specific product by slug
+      description: Returns full details for a single product including description, features, reviews, FAQs, and pricing.
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          description: Product URL slug (e.g. "skyblock-ultimate")
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Product details
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProductFull"
+
+  /categories/{category}.json:
+    get:
+      operationId: getCategory
+      summary: Get products by category
+      description: Returns all products in a specific category (addon, world, skin-pack, texture-pack, mashup).
+      parameters:
+        - name: category
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [addon, world, skin-pack, texture-pack, mashup]
+      responses:
+        "200":
+          description: Category products
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  category: { type: string }
+                  productCount: { type: integer }
+                  products:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Product"
+
+  /creators/{slug}.json:
+    get:
+      operationId: getCreator
+      summary: Get a creator profile and their products
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Creator profile with products
+
+  /search-index.json:
+    get:
+      operationId: getSearchIndex
+      summary: Get lightweight search index
+      description: Returns a compact array for client-side searching. Each entry has slug, name, category, tags, rating, price, and creator.
+      responses:
+        "200":
+          description: Search index array
+
+  /stats.json:
+    get:
+      operationId: getStats
+      summary: Get marketplace statistics
+      description: Returns aggregate statistics including total products, average ratings, price ranges, and per-category breakdowns.
+      responses:
+        "200":
+          description: Marketplace statistics
+
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        slug: { type: string }
+        name: { type: string }
+        creator: { type: string }
+        category: { type: string, enum: [addon, world, skin-pack, texture-pack, mashup] }
+        price: { type: integer, description: "Price in Minecoins" }
+        priceUSD: { type: string }
+        rating: { type: number }
+        reviewCount: { type: integer }
+        shortDesc: { type: string }
+        tags: { type: array, items: { type: string } }
+        tier: { type: string, enum: [standard, premium] }
+        featured: { type: boolean }
+
+    ProductFull:
+      allOf:
+        - $ref: "#/components/schemas/Product"
+        - type: object
+          properties:
+            longDesc: { type: string }
+            features: { type: array, items: { type: string } }
+            reviews:
+              type: array
+              items:
+                type: object
+                properties:
+                  author: { type: string }
+                  rating: { type: integer }
+                  text: { type: string }
+            faqs:
+              type: array
+              items:
+                type: object
+                properties:
+                  question: { type: string }
+                  answer: { type: string }
+            multiplayer: { type: string }
+            version: { type: string }

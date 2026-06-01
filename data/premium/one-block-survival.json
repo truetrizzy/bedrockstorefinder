@@ -1,0 +1,48 @@
+{
+  "slug": "one-block-survival",
+  "name": "One Block Survival",
+  "creator": "Pickaxe Studios",
+  "creatorSlug": "pickaxe-studios",
+  "category": "world",
+  "tagline": "Minecraft Bedrock One Block Map",
+  "shortDesc": "Start with a single block and expand your world through 12 biome phases. Features custom crafting, achievements, and multiplayer support.",
+  "longDesc": "One Block Survival is the highest-rated one block map for Minecraft Bedrock Edition, with a {rating}-star rating across {reviewCount}+ reviews on the Minecraft Marketplace. Start on a single block floating in the void and progress through 12 themed biome phases, collecting random resources with each block break to expand your island and survive.",
+  "price": 830,
+  "priceUSD": "4.99",
+  "rating": 4.8,
+  "reviewCount": 1800,
+  "downloads": "20,000+",
+  "minecraftVersion": "1.20+",
+  "multiplayer": "Up to 8 players",
+  "version": "1.8.0",
+  "datePublished": "2024-01-20",
+  "dateModified": "2026-05-27",
+  "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+  "tier": "premium",
+  "featured": true,
+  "promoted": true,
+  "tags": ["one-block", "survival", "biomes", "multiplayer", "achievements", "crafting"],
+  "features": [
+    "12 Biome Phases — Plains, Underground, Winter, Ocean, Jungle, Swamp, Dungeon, Desert, Nether, Mountains, End, and Bonus",
+    "Random Resource Generation — Each block break produces a random resource from the current biome phase",
+    "Custom Crafting Recipes — Over 20 phase-specific crafting recipes for unique items",
+    "Achievement System — 40+ achievements tracking milestones and progress",
+    "Island Expansion — Your island grows as you collect resources",
+    "8-Player Multiplayer — Full co-op support, all players can break the block",
+    "20+ Hours of Content — Completing all phases and achievements",
+    "Bonus Endgame — Secret 12th phase with exclusive rewards"
+  ],
+  "reviews": [
+    { "author": "OneBlockKing", "rating": 5, "text": "The best one block map I've played. The 12 phases give it way more content than other one block maps. The achievement system kept me motivated.", "date": "April 2026" },
+    { "author": "SurvivalQueen", "rating": 5, "text": "Played with my brother and we loved it. Each phase felt completely different. The custom crafting recipes are a nice touch.", "date": "March 2026" },
+    { "author": "BedrockNewbie", "rating": 5, "text": "First one block map I've ever played and it was amazing. 20+ hours for 830 Minecoins is a great deal.", "date": "February 2026" }
+  ],
+  "faqs": [
+    { "q": "What is the best one block map for Minecraft Bedrock?", "a": "One Block Survival by Pickaxe Studios is the highest-rated one block map on the Minecraft Marketplace with a {rating}-star rating across {reviewCount}+ reviews. It features 12 biome phases, custom crafting, 40+ achievements, and 8-player multiplayer. Available for {price} Minecoins." },
+    { "q": "What is a one block map in Minecraft?", "a": "A one block map is a survival challenge where you start on a single block in the void. Breaking it drops a random resource and the block regenerates. You use these resources to build and expand your island." },
+    { "q": "How long does One Block Survival take to complete?", "a": "Completing all 12 biome phases and achievements takes approximately 20+ hours. The Bonus phase provides unlimited endgame content." },
+    { "q": "Does One Block Survival work in multiplayer?", "a": "Yes, it supports up to 8 players in co-op. All players can break the one block and contribute to progression. Only the host needs to own the world." }
+  ],
+  "images": { "hero": "one-block-survival-hero.jpg", "thumb": "one-block-survival-thumb.jpg" },
+  "marketplaceId": ""
+}

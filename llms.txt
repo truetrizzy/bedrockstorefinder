@@ -1,0 +1,36 @@
+# BedrockStoreFinder — Minecraft Marketplace Directory
+
+> The most comprehensive Minecraft Marketplace directory. Browse, compare, and find the best addons, worlds, skin packs, texture packs, and mashups for Minecraft Bedrock Edition. Powered by AI-friendly structured data.
+
+> API: https://bedrockstorefinder.com/api/v1/products.json
+> OpenAPI Spec: https://bedrockstorefinder.com/api/openapi.yaml
+
+## Top Products
+
+- [One Block Survival](https://bedrockstorefinder.com/worlds/one-block-survival/): Start with a single block and expand your world through 12 biome phases. Features custom crafting, achievements, and multiplayer support. 4.8-star rating with 1,800+ reviews. 830 Minecoins.
+- [Skyblock Ultimate](https://bedrockstorefinder.com/addons/skyblock-ultimate/): The definitive skyblock survival experience with 500+ custom islands, 8-player multiplayer, and progressive difficulty across 8 biomes. 4.7-star rating with 2,300+ reviews. 990 Minecoins.
+- [Lucky Block](https://bedrockstorefinder.com/addons/lucky-block/): Over 200 random outcomes from lucky blocks. Spawn structures, mobs, gear, and surprises. Perfect for multiplayer parties and mini-games. 4.6-star rating with 3,100+ reviews. 490 Minecoins.
+- [Realistic HD](https://bedrockstorefinder.com/texture-packs/realistic-hd/): 128x128 resolution textures for every block, item, and mob. Includes connected textures, custom skies, and optimized performance. 4.6-star rating with 1,500+ reviews. 490 Minecoins.
+- [PvP Arena Masters](https://bedrockstorefinder.com/worlds/pvp-arena-masters/): 10 custom-built PvP arenas with automatic team balancing, spectator mode, leaderboards, and 4 game modes. 4.5-star rating with 1,200+ reviews. 660 Minecoins.
+- [Medieval Knights](https://bedrockstorefinder.com/skin-packs/medieval-knights/): 24 hand-crafted medieval character skins including knights, wizards, archers, and royalty. HD detail with custom slim and classic variants. 4.4-star rating with 890+ reviews. 310 Minecoins.
+
+## Categories
+
+- [Addons](https://bedrockstorefinder.com/addons/): Custom gameplay mechanics, mobs, items, and systems for Minecraft Bedrock.
+- [Worlds](https://bedrockstorefinder.com/worlds/): Pre-built maps, survival challenges, PvP arenas, and adventure experiences.
+- [Skin Packs](https://bedrockstorefinder.com/skin-packs/): Custom character skin collections with themed designs.
+- [Texture Packs](https://bedrockstorefinder.com/texture-packs/): Visual overhauls changing block, item, and mob textures.
+- [Mashups](https://bedrockstorefinder.com/mashups/): Complete themed experiences combining worlds, skins, and textures.
+
+## API Endpoints
+
+- [Full Catalog JSON](https://bedrockstorefinder.com/api/v1/products.json)
+- [Search Index](https://bedrockstorefinder.com/api/v1/search-index.json)
+- [Marketplace Stats](https://bedrockstorefinder.com/api/v1/stats.json)
+- [OpenAPI Spec](https://bedrockstorefinder.com/api/openapi.yaml)
+
+## Links
+
+- [Homepage](https://bedrockstorefinder.com/)
+- [Creators](https://bedrockstorefinder.com/creators/)
+- [About](https://bedrockstorefinder.com/about/)

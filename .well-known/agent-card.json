@@ -1,0 +1,52 @@
+{
+  "name": "BedrockStoreFinder",
+  "description": "The most comprehensive Minecraft Marketplace directory. Browse, compare, and find the best addons, worlds, skin packs, texture packs, and mashups for Minecraft Bedrock Edition. Powered by AI-friendly structured data.",
+  "url": "https://bedrockstorefinder.com",
+  "version": "1.0.0",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "protocols": [
+    {
+      "type": "openapi",
+      "url": "https://bedrockstorefinder.com/api/openapi.yaml",
+      "description": "RESTful JSON API for product data"
+    },
+    {
+      "type": "llms-txt",
+      "url": "https://bedrockstorefinder.com/llms.txt",
+      "fullUrl": "https://bedrockstorefinder.com/llms-full.txt",
+      "description": "LLM-optimized product catalog in markdown"
+    }
+  ],
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json"
+  ],
+  "skills": [
+    {
+      "id": "search-products",
+      "name": "Search Minecraft Marketplace Products",
+      "description": "Search across 6+ Minecraft Marketplace products by name, category, rating, or price.",
+      "tags": [
+        "minecraft",
+        "marketplace",
+        "search",
+        "products"
+      ]
+    },
+    {
+      "id": "compare-products",
+      "name": "Compare Minecraft Products",
+      "description": "Compare up to 4 Minecraft Marketplace products side by side with ratings, prices, and features.",
+      "tags": [
+        "minecraft",
+        "compare",
+        "products"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "totalProducts": 6,
+  "totalPremium": 6,
+  "avgRating": 4.6,
+  "totalReviews": 10790,
+  "categories": {
+    "addon": {
+      "count": 2,
+      "avgRating": 4.7,
+      "avgPrice": 740
+    },
+    "world": {
+      "count": 2,
+      "avgRating": 4.7,
+      "avgPrice": 745
+    },
+    "skin-pack": {
+      "count": 1,
+      "avgRating": 4.4,
+      "avgPrice": 310
+    },
+    "texture-pack": {
+      "count": 1,
+      "avgRating": 4.6,
+      "avgPrice": 490
+    },
+    "mashup": {
+      "count": 0,
+      "avgRating": 0,
+      "avgPrice": 0
+    }
+  },
+  "priceRange": {
+    "min": 310,
+    "max": 990
+  },
+  "topRated": [
+    {
+      "slug": "one-block-survival",
+      "name": "One Block Survival",
+      "rating": 4.8,
+      "category": "world"
+    },
+    {
+      "slug": "skyblock-ultimate",
+      "name": "Skyblock Ultimate",
+      "rating": 4.7,
+      "category": "addon"
+    },
+    {
+      "slug": "lucky-block",
+      "name": "Lucky Block",
+      "rating": 4.6,
+      "category": "addon"
+    },
+    {
+      "slug": "realistic-hd",
+      "name": "Realistic HD",
+      "rating": 4.6,
+      "category": "texture-pack"
+    },
+    {
+      "slug": "pvp-arena-masters",
+      "name": "PvP Arena Masters",
+      "rating": 4.5,
+      "category": "world"
+    },
+    {
+      "slug": "medieval-knights",
+      "name": "Medieval Knights",
+      "rating": 4.4,
+      "category": "skin-pack"
+    }
+  ],
+  "lastUpdated": "2026-06-01"
+}

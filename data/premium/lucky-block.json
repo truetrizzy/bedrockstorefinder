@@ -1,0 +1,47 @@
+{
+  "slug": "lucky-block",
+  "name": "Lucky Block",
+  "creator": "Pickaxe Studios",
+  "creatorSlug": "pickaxe-studios",
+  "category": "addon",
+  "tagline": "Minecraft Bedrock Lucky Block Addon",
+  "shortDesc": "Over 200 random outcomes from lucky blocks. Spawn structures, mobs, gear, and surprises. Perfect for multiplayer parties and mini-games.",
+  "longDesc": "Lucky Block is the most popular lucky block addon for Minecraft Bedrock Edition, featuring over 200 random outcomes, a built-in PvP mini-game mode, and adjustable luck levels. With a {rating}-star rating across {reviewCount}+ Minecraft Marketplace reviews, it is the top choice for players wanting unpredictable, exciting gameplay with friends.",
+  "price": 490,
+  "priceUSD": "2.99",
+  "rating": 4.6,
+  "reviewCount": 3100,
+  "downloads": "40,000+",
+  "minecraftVersion": "1.20+",
+  "multiplayer": "Unlimited players",
+  "version": "3.0.0",
+  "datePublished": "2023-11-10",
+  "dateModified": "2026-05-27",
+  "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+  "tier": "premium",
+  "featured": true,
+  "promoted": true,
+  "tags": ["lucky-block", "random", "pvp", "mini-game", "multiplayer", "party"],
+  "features": [
+    "200+ Random Outcomes — Diamond gear, custom structures, boss mobs, potion effects, TNT explosions, and more",
+    "Lucky Block PvP Mode — Built-in competitive mini-game for 2+ players",
+    "Adjustable Luck Levels — Lucky, Normal, and Unlucky settings",
+    "Craftable & Natural Spawning — Craft with gold ingots or find them in the world",
+    "Works in Any World — Drop into survival, creative, or any custom world",
+    "Unlimited Multiplayer — No player limit, perfect for parties",
+    "Regular Updates — 8 content updates in the past year"
+  ],
+  "reviews": [
+    { "author": "LuckyGamer99", "rating": 5, "text": "So much fun with friends! The 200+ outcomes keep every block exciting. We've been playing for hours and still getting surprised.", "date": "April 2026" },
+    { "author": "MCContentCreator", "rating": 5, "text": "Perfect for YouTube videos. Every lucky block break is content gold. The PvP mode is a great bonus.", "date": "March 2026" },
+    { "author": "CasualPlayer_Sarah", "rating": 4, "text": "Really fun addon! I like the adjustable luck levels so I can control how crazy things get.", "date": "January 2026" }
+  ],
+  "faqs": [
+    { "q": "What is the best lucky block addon for Minecraft Bedrock?", "a": "Lucky Block by Pickaxe Studios is the highest-rated lucky block addon on the Minecraft Marketplace with a {rating}-star rating across {reviewCount}+ reviews. It features 200+ unique outcomes, a PvP mini-game mode, and adjustable luck levels. Available for {price} Minecoins." },
+    { "q": "How many outcomes does the Lucky Block addon have?", "a": "The Lucky Block addon features over 200 unique random outcomes including diamond gear, custom structures, boss mobs, potion effects, TNT explosions, treasure rooms, and many more surprises." },
+    { "q": "Does the Lucky Block addon work in multiplayer?", "a": "Yes, Lucky Block supports unlimited players in multiplayer. It includes a dedicated PvP mini-game mode. Only the host needs to own the addon." },
+    { "q": "How do you craft lucky blocks?", "a": "Craft a lucky block by surrounding a dropper with 8 gold ingots on a crafting table. Lucky blocks also spawn naturally throughout the world." }
+  ],
+  "images": { "hero": "lucky-block-hero.jpg", "thumb": "lucky-block-thumb.jpg" },
+  "marketplaceId": ""
+}

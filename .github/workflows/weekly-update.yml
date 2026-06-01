@@ -1,0 +1,115 @@
+# BedrockStoreFinder — Weekly Tuesday Auto-Update
+#
+# Runs every Tuesday at 18:00 UTC (when Minecraft Marketplace refreshes)
+# 1. Fetches latest product data from the Marketplace API
+# 2. Rebuilds all static HTML pages from catalog.json + premium/
+# 3. Commits data changes and deploys _site/ to GitHub Pages
+#
+# Can also be triggered manually from the Actions tab.
+
+name: Weekly Marketplace Update & Deploy
+
+on:
+  schedule:
+    # Every Tuesday at 18:00 UTC (10am PT / 1pm ET)
+    - cron: '0 18 * * 2'
+
+  workflow_dispatch:
+    inputs:
+      skip_fetch:
+        description: 'Skip marketplace data fetch (rebuild only)'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch marketplace data
+        if: ${{ github.event.inputs.skip_fetch != 'true' }}
+        run: node scripts/fetch-marketplace.js
+        env:
+          MARKETPLACE_API_DELAY: '3000'
+
+      - name: Build static site
+        run: node scripts/build.js
+
+      # Commit only data changes (not generated output)
+      - name: Check for data changes
+        id: changes
+        run: |
+          git diff --quiet data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/catalog.json data/premium/
+          PRODUCT_COUNT=$(node -e "const d=require('./data/catalog.json'); console.log(d.products.length)")
+          DATE=$(date -u +"%Y-%m-%d")
+          git commit -m "chore: weekly marketplace update ($DATE)
+
+          Auto-updated $PRODUCT_COUNT products with latest Marketplace data.
+
+          Triggered by: ${{ github.event_name }}"
+
+      - name: Push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: git push
+
+      # Deploy _site/ (only public files, no scripts/data/config)
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Build summary
+        run: |
+          echo "## 🔨 Weekly Update Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date:** $(date -u +"%Y-%m-%d %H:%M UTC")" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes committed:** ${{ steps.changes.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Deployed to:** GitHub Pages" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Products" >> $GITHUB_STEP_SUMMARY
+          node -e "
+            const d = require('./data/catalog.json');
+            console.log('| Product | Rating | Reviews | Price |');
+            console.log('|---------|--------|---------|-------|');
+            d.products.forEach(p => {
+              console.log('| ' + p.name + ' | ' + p.rating + '★ | ' + p.reviewCount + ' | ' + p.price + ' MC |');
+            });
+          " >> $GITHUB_STEP_SUMMARY

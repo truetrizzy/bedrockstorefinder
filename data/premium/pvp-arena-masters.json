@@ -1,0 +1,41 @@
+{
+  "slug": "pvp-arena-masters",
+  "name": "PvP Arena Masters",
+  "creator": "Pickaxe Studios",
+  "creatorSlug": "pickaxe-studios",
+  "category": "world",
+  "tagline": "Minecraft Bedrock PvP Map",
+  "shortDesc": "10 custom-built PvP arenas with automatic team balancing, spectator mode, leaderboards, and 4 game modes.",
+  "longDesc": "PvP Arena Masters is a competitive multiplayer map for Minecraft Bedrock Edition featuring 10 professionally designed PvP arenas with 4 game modes, automatic team balancing, and a ranking system.",
+  "price": 660,
+  "priceUSD": "3.99",
+  "rating": 4.5,
+  "reviewCount": 1200,
+  "downloads": "15,000+",
+  "minecraftVersion": "1.20+",
+  "multiplayer": "2-16 players",
+  "version": "1.5.0",
+  "datePublished": "2024-06-01",
+  "dateModified": "2026-05-27",
+  "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+  "tier": "premium",
+  "featured": true,
+  "promoted": true,
+  "tags": ["pvp", "arena", "competitive", "multiplayer", "team", "deathmatch", "capture-the-flag"],
+  "features": [
+    "10 Unique Arena Designs — Medieval Castle, Space Station, Jungle Temple, and more",
+    "4 Game Modes — Free-for-All, Team Deathmatch, Capture the Flag, King of the Hill",
+    "Automatic Team Balancing — Fair matches every time",
+    "Spectator Mode — Watch after elimination",
+    "Leaderboard & Ranking System — Track your competitive progress",
+    "2-16 Players — Supports small and large groups"
+  ],
+  "reviews": [
+    { "author": "PvPChamp", "rating": 5, "text": "Best PvP map on the marketplace. The arenas are well-designed and the game modes keep it fresh.", "date": "March 2026" }
+  ],
+  "faqs": [
+    { "q": "What is the best Minecraft Bedrock PvP map?", "a": "PvP Arena Masters by Pickaxe Studios features 10 custom arenas, 4 game modes, and supports 2-16 players. Rated {rating} stars with {reviewCount}+ reviews." }
+  ],
+  "images": { "hero": "pvp-arena-hero.jpg", "thumb": "pvp-arena-thumb.jpg" },
+  "marketplaceId": ""
+}

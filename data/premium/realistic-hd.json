@@ -1,0 +1,41 @@
+{
+  "slug": "realistic-hd",
+  "name": "Realistic HD",
+  "creator": "Pickaxe Studios",
+  "creatorSlug": "pickaxe-studios",
+  "category": "texture-pack",
+  "tagline": "Minecraft Bedrock Texture Pack",
+  "shortDesc": "128x128 resolution textures for every block, item, and mob. Includes connected textures, custom skies, and optimized performance.",
+  "longDesc": "Realistic HD is a complete 128x128 resolution texture overhaul for Minecraft Bedrock Edition, covering every block, item, mob, and UI element with realistic, high-detail textures. Optimized for performance on all platforms.",
+  "price": 490,
+  "priceUSD": "2.99",
+  "rating": 4.6,
+  "reviewCount": 1500,
+  "downloads": "18,000+",
+  "minecraftVersion": "1.20+",
+  "multiplayer": "N/A",
+  "version": "2.0.0",
+  "datePublished": "2023-09-01",
+  "dateModified": "2026-05-27",
+  "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+  "tier": "premium",
+  "featured": true,
+  "promoted": true,
+  "tags": ["texture", "hd", "realistic", "128x", "resource-pack", "visual"],
+  "features": [
+    "128x128 Resolution — 8x the default textures",
+    "Complete Coverage — Every block, item, mob, and UI element",
+    "Connected Textures — Glass, bookshelves, and more blend seamlessly",
+    "Custom Skies — Dynamic weather and time-of-day sky textures",
+    "Realistic Water & Lava — Detailed fluid animations",
+    "Optimized Performance — Runs smoothly on mobile and console"
+  ],
+  "reviews": [
+    { "author": "TextureLover", "rating": 5, "text": "Best texture pack on the marketplace. Makes Minecraft look incredible without killing performance.", "date": "April 2026" }
+  ],
+  "faqs": [
+    { "q": "What is the best Minecraft Bedrock texture pack?", "a": "Realistic HD by Pickaxe Studios is a top-rated 128x128 texture pack with a {rating}-star rating across {reviewCount}+ reviews. It covers every block, item, and mob." }
+  ],
+  "images": { "hero": "realistic-hd-hero.jpg", "thumb": "realistic-hd-thumb.jpg" },
+  "marketplaceId": ""
+}
