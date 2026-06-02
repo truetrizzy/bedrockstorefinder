@@ -22,12 +22,25 @@
       "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace",
       "marketplaceId": "",
       "shortDesc": "The definitive skyblock survival experience with 500+ custom islands, 8-player multiplayer, and progressive difficulty across 8 biomes.",
-      "tags": ["skyblock", "survival", "islands", "multiplayer", "co-op"],
-      "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+      "tags": [
+        "skyblock",
+        "survival",
+        "islands",
+        "multiplayer",
+        "co-op"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
       "minecraftVersion": "1.20+",
       "tier": "premium",
       "dateAdded": "2024-03-15",
-      "dateModified": "2026-05-27"
+      "dateModified": "2026-06-02"
     },
     {
       "slug": "lucky-block",
@@ -44,12 +57,25 @@
       "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace",
       "marketplaceId": "",
       "shortDesc": "Over 200 random outcomes from lucky blocks. Spawn structures, mobs, gear, and surprises. Perfect for multiplayer parties and mini-games.",
-      "tags": ["lucky-block", "random", "pvp", "mini-game", "multiplayer"],
-      "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+      "tags": [
+        "lucky-block",
+        "random",
+        "pvp",
+        "mini-game",
+        "multiplayer"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
       "minecraftVersion": "1.20+",
       "tier": "premium",
       "dateAdded": "2023-11-10",
-      "dateModified": "2026-05-27"
+      "dateModified": "2026-06-02"
     },
     {
       "slug": "one-block-survival",
@@ -66,12 +92,25 @@
       "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace",
       "marketplaceId": "",
       "shortDesc": "Start with a single block and expand your world through 12 biome phases. Features custom crafting, achievements, and multiplayer support.",
-      "tags": ["one-block", "survival", "biomes", "multiplayer", "achievements"],
-      "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+      "tags": [
+        "one-block",
+        "survival",
+        "biomes",
+        "multiplayer",
+        "achievements"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
       "minecraftVersion": "1.20+",
       "tier": "premium",
       "dateAdded": "2024-01-20",
-      "dateModified": "2026-05-27"
+      "dateModified": "2026-06-02"
     },
     {
       "slug": "pvp-arena-masters",
@@ -88,12 +127,25 @@
       "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace",
       "marketplaceId": "",
       "shortDesc": "10 custom-built PvP arenas with automatic team balancing, spectator mode, leaderboards, and 4 game modes.",
-      "tags": ["pvp", "arena", "competitive", "multiplayer", "team"],
-      "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+      "tags": [
+        "pvp",
+        "arena",
+        "competitive",
+        "multiplayer",
+        "team"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
       "minecraftVersion": "1.20+",
       "tier": "premium",
       "dateAdded": "2024-06-01",
-      "dateModified": "2026-05-27"
+      "dateModified": "2026-06-02"
     },
     {
       "slug": "medieval-knights",
@@ -110,12 +162,25 @@
       "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace",
       "marketplaceId": "",
       "shortDesc": "24 hand-crafted medieval character skins including knights, wizards, archers, and royalty. HD detail with custom slim and classic variants.",
-      "tags": ["skins", "medieval", "knights", "fantasy", "hd"],
-      "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+      "tags": [
+        "skins",
+        "medieval",
+        "knights",
+        "fantasy",
+        "hd"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
       "minecraftVersion": "Any",
       "tier": "premium",
       "dateAdded": "2024-02-14",
-      "dateModified": "2026-05-27"
+      "dateModified": "2026-06-02"
     },
     {
       "slug": "realistic-hd",
@@ -132,12 +197,25 @@
       "marketplaceUrl": "https://www.minecraft.net/en-us/marketplace",
       "marketplaceId": "",
       "shortDesc": "128x128 resolution textures for every block, item, and mob. Includes connected textures, custom skies, and optimized performance.",
-      "tags": ["texture", "hd", "realistic", "128x", "resource-pack"],
-      "platforms": ["Windows", "iOS", "Android", "Xbox", "PlayStation", "Switch"],
+      "tags": [
+        "texture",
+        "hd",
+        "realistic",
+        "128x",
+        "resource-pack"
+      ],
+      "platforms": [
+        "Windows",
+        "iOS",
+        "Android",
+        "Xbox",
+        "PlayStation",
+        "Switch"
+      ],
       "minecraftVersion": "1.20+",
       "tier": "premium",
       "dateAdded": "2023-09-01",
-      "dateModified": "2026-05-27"
+      "dateModified": "2026-06-02"
     }
   ]
 }
