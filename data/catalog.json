@@ -40,7 +40,7 @@
       "minecraftVersion": "1.20+",
       "tier": "premium",
       "dateAdded": "2024-03-15",
-      "dateModified": "2026-06-02"
+      "dateModified": "2026-06-09"
     },
     {
       "slug": "lucky-block",
@@ -75,7 +75,7 @@
       "minecraftVersion": "1.20+",
       "tier": "premium",
       "dateAdded": "2023-11-10",
-      "dateModified": "2026-06-02"
+      "dateModified": "2026-06-09"
     },
     {
       "slug": "one-block-survival",
@@ -110,7 +110,7 @@
       "minecraftVersion": "1.20+",
       "tier": "premium",
       "dateAdded": "2024-01-20",
-      "dateModified": "2026-06-02"
+      "dateModified": "2026-06-09"
     },
     {
       "slug": "pvp-arena-masters",
@@ -145,7 +145,7 @@
       "minecraftVersion": "1.20+",
       "tier": "premium",
       "dateAdded": "2024-06-01",
-      "dateModified": "2026-06-02"
+      "dateModified": "2026-06-09"
     },
     {
       "slug": "medieval-knights",
@@ -180,7 +180,7 @@
       "minecraftVersion": "Any",
       "tier": "premium",
       "dateAdded": "2024-02-14",
-      "dateModified": "2026-06-02"
+      "dateModified": "2026-06-09"
     },
     {
       "slug": "realistic-hd",
@@ -215,7 +215,7 @@
       "minecraftVersion": "1.20+",
       "tier": "premium",
       "dateAdded": "2023-09-01",
-      "dateModified": "2026-06-02"
+      "dateModified": "2026-06-09"
     }
   ]
 }
